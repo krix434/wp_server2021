@@ -372,7 +372,7 @@ app.get('/', (req, res) => {
 });
 
 // Start the Express server
-const port = process.env.PORT || 20228;
+const port = process.env.PORT || 20223;
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
     autoStartSessions();
